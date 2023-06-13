@@ -1,5 +1,7 @@
 from django.shortcuts import get_object_or_404, render
 
+from ice_cream.models import IceCream
+
 
 def ice_cream_detail(request, pk):
     template_name = 'ice_cream/detail.html'
